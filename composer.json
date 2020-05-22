@@ -1,0 +1,21 @@
+{
+    "name": "gaoxiang/ierp",
+    "description": "this a test",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "gaoxiang0894",
+            "email": "gaoxiang0894@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"php": ">7.0",
+	}
+	"autoload": {
+        "psr-4": {
+           "Ierp\\": "src/"
+        }
+    }
+}
